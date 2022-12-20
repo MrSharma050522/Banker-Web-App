@@ -63,7 +63,7 @@ openAccountBtn.addEventListener("click", event => {
   userName.value = "";
   pinNum.value = "";
 
-  // openAccountHandler(userData);
+  openAccountHandler(userData);
 
   console.log(userData);
   closeModal();
